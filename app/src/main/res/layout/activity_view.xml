@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/radioBtn_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/radiogroup_select"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="几乎不跑"
+                android:textColor="@color/radio_text_selector" />
+
+            <RadioButton
+                android:id="@+id/radioBtn_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/radiogroup_select"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="每周跑一次"
+                android:textColor="@color/radio_text_selector" />
+
+            <RadioButton
+                android:id="@+id/radioBtn_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/radiogroup_select"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="每周跑2-3次"
+                android:textColor="@color/radio_text_selector" />
+
+            <RadioButton
+                android:id="@+id/radioBtn_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/radiogroup_select"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="每周4次以上"
+                android:textColor="@color/radio_text_selector" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBlack"></View>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkbox_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/layout_shape"
+                android:button="@null"
+                android:drawablePadding="-40dp"
+                android:drawableRight="@drawable/checkbox_selector"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp"
+                android:text="跑步"
+                android:textColor="@color/checkbox_text_selector" />
+
+            <CheckBox
+                android:id="@+id/checkbox_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/layout_shape"
+                android:button="@null"
+                android:drawablePadding="-40dp"
+                android:drawableRight="@drawable/checkbox_selector"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp"
+                android:text="滑雪"
+                android:textColor="@color/checkbox_text_selector" />
+
+            <CheckBox
+                android:id="@+id/checkbox_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/layout_shape"
+                android:button="@null"
+                android:drawablePadding="-40dp"
+                android:drawableRight="@drawable/checkbox_selector"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp"
+                android:text="武术"
+                android:textColor="@color/checkbox_text_selector" />
+
+            <CheckBox
+                android:id="@+id/checkbox_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/layout_shape"
+                android:button="@null"
+                android:drawablePadding="-40dp"
+                android:drawableRight="@drawable/checkbox_selector"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp"
+                android:text="瑜伽"
+                android:textColor="@color/checkbox_text_selector" />
+
+            <CheckBox
+                android:id="@+id/checkbox_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/layout_shape"
+                android:button="@null"
+                android:checked="true"
+                android:drawablePadding="-40dp"
+                android:drawableRight="@drawable/checkbox_selector"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp"
+                android:text="没有"
+                android:textColor="@color/checkbox_text_selector" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BraceletElectricityProgressBar">
+        <!--底部文字-->
+        <attr name="bottom_text" format="string"></attr>
+        <!--底部文字颜色-->
+        <attr name="bottom_text_color" format="color"></attr>
+        <!--进度条颜色-->
+        <attr name="progress_color" format="color"></attr>
+        <!--进度条底部颜色-->
+        <attr name="progress_second_color" format="color"></attr>
+        <!--进度条单位-->
+        <attr name="progress_unit" format="string"></attr>
+        <!--进度条大小-->
+        <attr name="progress_size" format="dimension"></attr>
+    </declare-styleable>
+
+</resources>
